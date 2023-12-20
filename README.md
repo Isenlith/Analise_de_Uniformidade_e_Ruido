@@ -1,7 +1,20 @@
-# Analise_de_Uniformidade_e_Ruido
+# Uniformidade e Ruído do PET/CT
+
 Este código em Python tem como objetivo processar imagens DICOM de aquisições em PET/CT para análise de Uniformidade e Ruído de distintas reconstruções.
 
-## Bibliotecas utilizadas
+| :books: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Titulo do meu projeto**
+| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
+| :rocket: URL         | https://url-deploy.com.br
+| :fire: Desafio     | https://url-do-desafio.com.br
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://vitrinedev.s3.amazonaws.com/uniformidade-ruido.png#vitrinedev)
+
+## Detalhes do projeto
+
+### Bibliotecas utilizadas
 O código usa as seguintes bibliotecas:
 
 - os: para lidar com operações de diretório
@@ -14,7 +27,7 @@ O código usa as seguintes bibliotecas:
 - math: para realizar operações matemáticas
 - pandas: para ler os dados do arquivo csv.
 
-## Funcionalidades
+### Funcionalidades
 1. O código primeiro define o caminho para o diretório onde os arquivos DICOM estão armazenados e importa as bibliotecas necessárias.
 
 2. Em seguida, a função get_images_data é definida, que recebe um caminho como entrada e retorna uma matriz NumPy de dados de pixel para cada imagem no diretório, bem como uma lista dos nomes dos arquivos. Essa função usa os.listdir para obter uma lista de todos os arquivos DICOM no diretório e pydicom.dcmread para ler os dados de pixel de cada imagem.
@@ -39,7 +52,7 @@ $$CV = \frac{SD_{nROI}}{nROI_{mean}} \times 100\%$$
 
 10. Por fim, o código lê o arquivo INSCER.csv e exibe os dados em um dataframe do pandas.
 
-## Como utilizar
+### Como utilizar
 Para usar este código, você precisará ter um diretório de arquivos DICOM que deseja analisar.
 
 1. Defina o caminho para o diretório que contém os arquivos DICOM.
