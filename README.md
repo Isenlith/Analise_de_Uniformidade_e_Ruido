@@ -4,10 +4,8 @@ Este código em Python tem como objetivo processar imagens DICOM de aquisições
 
 | :books: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :sparkles: Nome        | **Uniformidade e Ruído do PET/CT**
+| :label: Tecnologias | python (cv2, pydicom, pandas, plotly)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://vitrinedev.s3.amazonaws.com/uniformidade-ruido.png#vitrinedev)
